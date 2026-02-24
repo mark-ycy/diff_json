@@ -1,6 +1,5 @@
 use serde_json::Value;
 use std::fmt;
-
 #[derive(Debug, Clone, PartialEq)]
 pub enum DiffType {
     Added,
